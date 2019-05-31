@@ -14,7 +14,7 @@ public class HotelTest {
 	
 	@BeforeClass
 	public static void setup() {
-		System.setProperty("webdriver.chrome.driver", "C:\\\\Program Files\\\\ChromeDriver74\\\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\ChromeDriver74\\chromedriver.exe");
 		driver = new ChromeDriver();
 				
 	}
